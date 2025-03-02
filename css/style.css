@@ -1,0 +1,171 @@
+li {
+  list-style: none;
+}
+
+body {
+  background-color: mediumseagreen;
+}
+
+ul {
+  list-style: none;
+  display: block;
+}
+
+.box {
+  background-color: mediumspringgreen;
+}
+
+.biografy {
+  text-align: center;
+  font-family: momospace;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.pubg-m {
+  background-color: rgba(84, 80, 80, 0.804);
+}
+в мене вийшло адаптувати найтяжщу фотку .pubg-armament {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.cubi {
+  background-color: rgba(84, 80, 80, 0.804);
+}
+
+.rubik {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.rubik-s {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+/* Pubg-a image styles */
+.pubg-a {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+/* Mobile devices (320px - 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    padding-right: 45px;
+  }
+  .pubg-a {
+    width: 90%;
+    margin: 5px auto;
+  }
+}
+
+/* Tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    padding-right: 45px;
+  }
+  .pubg-a {
+    width: 70%;
+    margin: 10px auto;
+  }
+}
+
+/* Laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding-right: 45px;
+  }
+  .pubg-a {
+    width: 60%;
+    margin: 15px auto;
+  }
+}
+
+/* Mobile devices (320px - 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    padding-right: 45px;
+  }
+  .cubi {
+    width: 100%;
+    padding: 10px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  .rubik {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+/* Tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    padding-right: 45px;
+  }
+  .cubi {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  img {
+    max-width: 80%;
+    height: auto;
+    margin: 15px auto;
+  }
+  .rubik {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+/* Laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding-right: 45px;
+  }
+  .cubi {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  img {
+    max-width: 70%;
+    height: auto;
+    margin: 20px auto;
+  }
+  .rubik {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
+/* Desktops (1025px and up) */
+@media (min-width: 1025px) {
+  .container {
+    padding-right: 45px;
+  }
+  .cubi {
+    width: 60%;
+    margin: 0 auto;
+    padding: 25px;
+  }
+  img {
+    max-width: 60%;
+    height: auto;
+    margin: 25px auto;
+  }
+  .rubik {
+    font-size: 22px;
+    line-height: 1.7;
+  }
+}
