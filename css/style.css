@@ -11,6 +11,11 @@ ul {
   display: block;
 }
 
+.app {
+  color: white;
+  background-color: black;
+}
+
 .box {
   background-color: mediumspringgreen;
 }
